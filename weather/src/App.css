@@ -21,3 +21,12 @@
 .App-link {
   color: #09d3ac;
 }
+
+#id {
+  height: 50px !important;
+  width: 50px !important;
+}
+
+.card {
+  text-align: left;
+}

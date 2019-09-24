@@ -45,6 +45,7 @@ class App extends React.Component {
     return (
       <div>
         <h1>Wetter</h1>
+        
         <GetCity onClick={(inputCity) => this.changeCity(inputCity)} />
         <Weather responseWeather={this.state.responseWeather} />
       </div>
