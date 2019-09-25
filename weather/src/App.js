@@ -13,8 +13,7 @@ class App extends React.Component {
   }
 
   changeCity(input) {
-    this.setState({city: input}, () => { this.CallWeatherAPI() })
-    
+    this.setState({city: input}, () => { this.CallWeatherAPI() })    
   }
 
   CallWeatherAPI() {
@@ -32,8 +31,6 @@ class App extends React.Component {
         }
 
         self.setState({ responseWeather: dataObj })
-        window.console.log(self.state.responseWeather);
-
       }
 
       Http.send()
